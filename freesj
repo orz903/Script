@@ -1,0 +1,10 @@
+var obj = JSON.parse($response.body);
+ obj= {
+ "vipstatus":1,
+ "isexpert":true,
+  "endtime":"2022-11-02,
+  "vipResidualDay":999,
+ }
+};
+$done({body: JSON.stringify(obj)});
+//
